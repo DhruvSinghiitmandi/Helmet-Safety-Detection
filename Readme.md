@@ -43,3 +43,9 @@ Crucially, YOLO relies on proportional reasoning, eliminating the need to view t
 # COMPARISION B/W YOLO and faster RCNN
  <!-- insert img from video comparing FPS and MaP score -->
  <!-- Elaborate the image -->
+
+ ![Project Image](images/comp.png)
+
+ The tradeoff between YOLO (You Only Look Once) and Faster R-CNN lies in the balance between speed and accuracy in object detection. YOLO, being a one-shot detection model, exhibits faster inference times by processing the entire image in a single pass. However, this efficiency may come at the cost of slightly lower accuracy, particularly in detecting small objects or intricate details.
+
+In contrast, Faster R-CNN, with its two-stage approach of region proposal and classification, achieves higher accuracy by carefully refining object localization. Yet, this thoroughness can result in slower processing speeds, making it less suitable for real-time applications. The decision to choose between YOLO and Faster R-CNN hinges on the specific needs of a given task, with YOLO favored for speed-oriented applications and Faster R-CNN for tasks demanding higher precision.
