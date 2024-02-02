@@ -4,6 +4,12 @@
 
 
 # Brief Refresher of Faster R-CNN and YOLO
+
+![Project Image](images/frcnn1.png)
+![Project Image](images/frcnn2.png)
+
+
+
 Step 1: Backbone Network for Feature Extraction
 
 At the heart of Faster R-CNN is a robust architecture that starts with a backbone network, typically a deep convolutional neural network like VGG or ResNet. This backbone is responsible for extracting rich feature maps from the input image. As an image passes through this network, it is transformed into a high-dimensional feature map, preserving essential spatial and textural information while capturing complex patterns necessary for detecting objects. This feature map is crucial as it serves as the input for the subsequent stages of the model.
@@ -18,6 +24,8 @@ Finally, the proposals enter the ROI (Region of Interest) heads. This stage cons
 
 
 <!-- insert images-->
+![Project Image](images/yolo1.png)
+![Project Image](images/yolo2.png)
 Step 1: Backbone Network for Feature Extraction
 
 At the core of YOLO (You Only Look Once) lies a foundational architecture that commences with a backbone network, typically a deep convolutional neural network like VGG or ResNet. This backbone is tasked with extracting intricate feature maps from the input image. As the image traverses through this network, it undergoes transformation into a high-dimensional feature map, retaining crucial spatial and textural information while capturing intricate patterns essential for object detection. This feature map serves as a pivotal input for subsequent stages in the YOLO model.
